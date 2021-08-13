@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 public class Guy : MonoBehaviour
 {
     public int speed = 10;
-    [FormerlySerializedAs("radius")] public int detectingRadius = 5;
+    public int detectingRadius = 5;
     [SerializeField] private List<Guy> closeGuys = new List<Guy>();
     public MeshRenderer hat;
     
